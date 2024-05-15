@@ -31,10 +31,10 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <h1>Contact Us</h1>
+      <h1>Contato</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Nome:</label>
           <input
             type="text"
             id="name"
@@ -57,7 +57,7 @@ const App: React.FC = () => {
           {emailError && <p className="error">{emailError}</p>}
         </div>
         <div className="form-group">
-          <label htmlFor="subject">Subject:</label>
+          <label htmlFor="subject">Assunto:</label>
           <input
             type="text"
             id="subject"
@@ -68,7 +68,7 @@ const App: React.FC = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message">Mensagem:</label>
           <textarea
             id="message"
             name="message"
@@ -77,7 +77,7 @@ const App: React.FC = () => {
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit">Enviar</button>
       </form>
     </div>
   );
