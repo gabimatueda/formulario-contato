@@ -11,5 +11,4 @@ Criei um Formulário de Contato para o Desafio #3 do Front-End Fusion (Projeto V
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - React
-  
 - TypeScript
